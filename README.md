@@ -1,4 +1,4 @@
-# desafio-heroy-felipao-dio
+# Desafio-heroy-felipao-dio
 Primeiro desafio de Lógica de Programação da Dio Felipão
 
 Entendendo o Desafio
