@@ -1,44 +1,19 @@
-# Desafio-heroy-felipao-dio
-Primeiro desafio de Lógica de Programação da Dio Felipão
+<h1>🎮 Descrição do Projeto:</h1>
+Este projeto apresenta um sistema de classificação de jogadores baseado em suas pontuações de experiência (XP). 
 
-Entendendo o Desafio
- 
-Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
- 
-Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
- 
-Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
- 
-Instruções para entrega
-# 1️⃣ Desafio Classificador de nível de Herói
+Quatro jogadores, com os nomes "IvoShow", "IviNho", "Ivão" e "Ivo", são avaliados. Cada jogador possui uma quantidade específica de XP, representada pelos valores contidos no array "niveisxp".
 
-**O Que deve ser utilizado**
+O sistema utiliza um loop e um switch para determinar o nível de cada jogador com base em sua pontuação de XP. Os níveis são atribuídos da seguinte forma:
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+🥉 Ferro: XP menor que 1.000
+🥈 Bronze: XP entre 1.001 e 2.000
+🥇 Prata: XP entre 2.001 e 5.000
+🏅 Ouro: XP entre 5.001 e 7.000
+💎 Platina: XP entre 7.001 e 8.000
+🔥 Ascendente: XP entre 8.001 e 9.000
+🌟 Imortal: XP entre 9.001 e 10.000
+💥 Radiante: XP maior ou igual a 10.001
 
-## Objetivo
+Além disso, o código exibe a colocação de cada jogador. Caso um jogador tenha uma pontuação de XP superior a 10.000, ele é declarado como o vencedor da partida.
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
-
-Se XP for menor do que 1.000 = Ferro<br>
-Se XP for entre 1.001 e 2.000 = Bronze<br>
-Se XP for entre 2.001 e 5.000 = Prata<br>
-Se XP for entre 5.001 e 7.000 = Ouro<br>
-Se XP for entre 7.001 e 8.000 = Platina<br>
-Se XP for entre 8.001 e 9.000 = Ascendente<br>
-Se XP for entre 9.001 e 10.000= Imortal<br>
-Se XP for maior ou igual a 10.001 = Radiante<br>
-
-## Saída
-
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
-
- 
- 
- 
- 
-Bons estudos 😉
+Este projeto é uma ótima oportunidade de aprendizado e prática de lógica de programação. Explore o código e divirta-se experimentando diferentes cenários! 🚀
