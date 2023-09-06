@@ -5,14 +5,14 @@ Quatro jogadores, com os nomes "IvoShow", "IviNho", "Ivão" e "Ivo", são avalia
 
 O sistema utiliza um loop e um switch para determinar o nível de cada jogador com base em sua pontuação de XP. Os níveis são atribuídos da seguinte forma:
 
-🥉 Ferro: XP menor que 1.000
-🥈 Bronze: XP entre 1.001 e 2.000
-🥇 Prata: XP entre 2.001 e 5.000
-🏅 Ouro: XP entre 5.001 e 7.000
-💎 Platina: XP entre 7.001 e 8.000
-🔥 Ascendente: XP entre 8.001 e 9.000
-🌟 Imortal: XP entre 9.001 e 10.000
-💥 Radiante: XP maior ou igual a 10.001
+🥉 Ferro: XP menor que 1.000<br>
+🥈 Bronze: XP entre 1.001 e 2.000<br>
+🥇 Prata: XP entre 2.001 e 5.000<br>
+🏅 Ouro: XP entre 5.001 e 7.000<br>
+💎 Platina: XP entre 7.001 e 8.000<br>
+🔥 Ascendente: XP entre 8.001 e 9.000<br>
+🌟 Imortal: XP entre 9.001 e 10.000<br>
+💥 Radiante: XP maior ou igual a 10.001<br>
 
 Além disso, o código exibe a colocação de cada jogador. Caso um jogador tenha uma pontuação de XP superior a 10.000, ele é declarado como o vencedor da partida.
 
